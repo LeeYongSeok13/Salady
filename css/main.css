@@ -56,9 +56,41 @@
     position: relative;
 }
 
-#MainSlider>div {
-    width: auto;
-    height: auto;
+#MainSlider div {
+    width: 100%;
+    height: 600px;
+}
+
+#MainSlider .Slider1 {
+    background: url('../img/MainSlider1.png') no-repeat center center/cover;
+}
+
+#MainSlider .Slider2 {
+    background: url('../img/MainSlider2.png') no-repeat center center/cover;
+}
+
+#MainSlider .Slider3 {
+    background: url('../img/MainSlider3.png') no-repeat center center/cover;
+}
+
+#MainSlider .Slider4 {
+    background: url('../img/MainSlider4.png') no-repeat center center/cover;
+}
+
+#MainSlider .Slider5 {
+    background: url('../img/MainSlider5.png') no-repeat center center/cover;
+}
+
+#MainSlider .Slider6 {
+    background: url('../img/MainSlider6.png') no-repeat center center/cover;
+}
+
+#MainSlider .Slider7 {
+    background: url('../img/MainSlider7.jpg') no-repeat center center/cover;
+}
+
+#MainSlider .Slider8 {
+    background: url('../img/MainSlider8.jpg') no-repeat center center/cover;
 }
 
 #MainSlider .slick-dots {
@@ -86,4 +118,52 @@
     width: 30px;
     border-radius: 10px;
     transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    
+    #header .container .nav {
+        display: none;
+    }
+
+    #MainSlider {
+        width: 100%;
+    }
+
+    #MainSlider .Slider1 {
+        background: url('../img/MainSlider1_responsive.png') no-repeat center center/cover;
+    }
+
+    #MainSlider .Slider2 {
+        background: url('../img/MainSlider2_responsive.png') no-repeat center center/cover;
+    }
+
+    #MainSlider .Slider3 {
+        background: url('../img/MainSlider3_responsive.png') no-repeat center center/cover;
+    }
+
+    #MainSlider .Slider4 {
+        background: url('../img/MainSlider4_responsive.png') no-repeat center center/cover;
+    }
+
+    #MainSlider .Slider5 {
+        background: url('../img/MainSlider5_responsive.png') no-repeat center center/cover;
+    }
+
+    #MainSlider .Slider6 {
+        background: url('../img/MainSlider6_responsive.png') no-repeat center center/cover;
+    }g
+
+    #MainSlider .Slider7 {
+        background: url('../img/MainSlider7_responsive.jpg') no-repeat center center/cover;
+    }
+
+    #MainSlider .Slider8 {
+        background: url('../img/MainSlider8_responsive.jpg') no-repeat center center/cover;
+    }
 }
