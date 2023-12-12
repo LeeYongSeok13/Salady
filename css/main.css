@@ -1,0 +1,89 @@
+#header {
+    line-height: 112px;
+}
+#header .container{
+    display: flex;
+    height: 112px;
+    justify-content: space-between;
+}
+
+#header .container ul {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.3rem;
+}
+
+#header .container ul>li {
+    position: relative;
+}
+
+#header .container ul>li:hover {
+    color: #17633d;
+}
+
+#header .container ul>li>ul {
+    position: absolute;
+    left: -50px;
+    width: 1200px;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    gap: 2rem;
+    visibility: hidden;
+    text-align: left;
+    color: white;
+    background: transparent;
+    z-index: 999;
+}
+
+#header .container ul>li:hover>ul {
+    visibility: visible;
+}
+
+#header .container ul>li>ul>li:hover {
+    color: white;
+}
+#header .container button {
+    background: transparent;
+    border: none;
+}
+
+#header .container button i {
+    font-size: 2.5rem;
+    align-items: center;
+}
+
+#MainSlider {
+    position: relative;
+}
+
+#MainSlider>div {
+    width: auto;
+    height: auto;
+}
+
+#MainSlider .slick-dots {
+    position: absolute;
+    display: flex;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 1rem;
+}
+
+#MainSlider .slick-dots li {
+    font-size: 0;
+}
+
+#MainSlider .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+}
+
+#MainSlider .slick-dots .slick-active>button {
+    background: #ffff00;
+    width: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
