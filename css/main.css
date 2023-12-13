@@ -120,6 +120,13 @@
     transition: 0.5s;
 }
 
+#Item .container {
+}
+
+#Item .Item-slider div{
+    height: 480px;
+}
+
 @media (max-width: 768px) {
     .container {
         width: 100%;
