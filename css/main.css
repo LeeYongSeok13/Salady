@@ -31,12 +31,14 @@
     visibility: hidden;
     text-align: left;
     color: white;
-    background: transparent;
+    background: #17633d;
     z-index: 999;
+    transition: 0.3s linear;
 }
 
 #header .container ul>li:hover>ul {
     visibility: visible;
+    transition: 0.3s;
 }
 
 #header .container ul>li>ul>li:hover {
@@ -121,10 +123,16 @@
 }
 
 #Item .container {
+    max-width: none!important;
 }
 
-#Item .Item-slider div{
-    height: 480px;
+#Item .Item-slider>div{
+    width: 250px;
+    height: 250px;
+}
+
+#Item .Item-slider div .slick-active {
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -138,39 +146,7 @@
         display: none;
     }
 
-    #MainSlider {
+    #MainSlider div{
         width: 100%;
-    }
-
-    #MainSlider .Slider1 {
-        background: url('../img/MainSlider1_responsive.png') no-repeat center center/cover;
-    }
-
-    #MainSlider .Slider2 {
-        background: url('../img/MainSlider2_responsive.png') no-repeat center center/cover;
-    }
-
-    #MainSlider .Slider3 {
-        background: url('../img/MainSlider3_responsive.png') no-repeat center center/cover;
-    }
-
-    #MainSlider .Slider4 {
-        background: url('../img/MainSlider4_responsive.png') no-repeat center center/cover;
-    }
-
-    #MainSlider .Slider5 {
-        background: url('../img/MainSlider5_responsive.png') no-repeat center center/cover;
-    }
-
-    #MainSlider .Slider6 {
-        background: url('../img/MainSlider6_responsive.png') no-repeat center center/cover;
-    }g
-
-    #MainSlider .Slider7 {
-        background: url('../img/MainSlider7_responsive.jpg') no-repeat center center/cover;
-    }
-
-    #MainSlider .Slider8 {
-        background: url('../img/MainSlider8_responsive.jpg') no-repeat center center/cover;
     }
 }

@@ -7,9 +7,5 @@ $(function () {
     fade: true,
   });
 
-  $(".Item-slider").slick({
-    centerMode: true,
-    centerPadding: "10px",
-    slidesToShow: 3,
-  });
+  $(".Item-slider").slick({});
 });
