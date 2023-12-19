@@ -33,12 +33,10 @@
     color: white;
     background: #17633d;
     z-index: 999;
-    transition: 0.3s linear;
 }
 
 #header .container ul>li:hover>ul {
     visibility: visible;
-    transition: 0.3s;
 }
 
 #header .container ul>li>ul>li:hover {
@@ -123,7 +121,7 @@
 }
 
 #Item .container {
-    max-width: none!important;
+    max-width: 1200px!important;
 }
 
 #Item .Item-slider>div{
