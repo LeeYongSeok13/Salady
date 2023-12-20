@@ -1,0 +1,20 @@
+#left {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background: #17633d;
+}
+
+#left .left-nav {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#left .left-nav ul {
+    display: block;
+}
+
+#left .left-nav ul li {
+    margin: 20px 0;
+}
